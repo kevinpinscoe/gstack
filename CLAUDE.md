@@ -3,6 +3,8 @@
 > **Read-only clone — do NOT push.** This is a local reference copy of the upstream
 > repo. Contributions go back via the upstream fork workflow, not by pushing here.
 > The push URL is intentionally disabled (`git remote set-url --push origin no_push`).
+> To pull upstream changes: `git fetch upstream && git merge upstream/main`
+> (upstream = `git@github.com:garrytan/gstack.git`).
 
 ## Commands
 
